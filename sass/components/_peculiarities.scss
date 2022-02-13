@@ -13,10 +13,10 @@
 .peculiarities-list {
     display: flex;
     margin: 0 15px;
+}
 
-    &:not(:last-child) {
-        margin-right: 30px;
-    }
+.peculiarities-list__item:not(:last-child) {
+    margin-right: 30px;
 }
 
 .peculiarities-list__title {

@@ -13,11 +13,11 @@
     background-position: center;
     background-size: cover;
 }
-.hero {
+.hero-container {
     display: block;
 }
 
-.hero__title {
+.hero-container__title {
     display: block;
 
     font-weight: 900;
@@ -30,8 +30,7 @@
     color: $color-primery-bg;
 }
 
-/* ---------- Кнопка героя ---------- */
-.hero__button {
+.hero-button {
     display: block;
     border: 0;
     border-radius: 4px;

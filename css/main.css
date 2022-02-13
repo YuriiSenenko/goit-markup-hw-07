@@ -47,7 +47,7 @@ p {
   margin: -1px;
 }
 
-.hero__button {
+.hero-button {
   font-family: Roboto;
   font-weight: bold;
   font-size: 16px;
@@ -223,11 +223,11 @@ p {
   background-size: cover;
 }
 
-.hero {
+.hero-container {
   display: block;
 }
 
-.hero__title {
+.hero-container__title {
   display: block;
   font-weight: 900;
   font-size: 44px;
@@ -238,8 +238,7 @@ p {
   color: #ffffff;
 }
 
-/* ---------- Кнопка героя ---------- */
-.hero__button {
+.hero-button {
   display: block;
   border: 0;
   border-radius: 4px;
@@ -278,7 +277,7 @@ p {
   margin: 0 15px;
 }
 
-.peculiarities-list:not(:last-child) {
+.peculiarities-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
