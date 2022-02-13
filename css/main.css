@@ -1047,6 +1047,7 @@ p {
 }
 
 .checkbox-link {
+  margin-left: 5px;
   -webkit-text-decoration-line: underline;
           text-decoration-line: underline;
   color: #2196f3;
