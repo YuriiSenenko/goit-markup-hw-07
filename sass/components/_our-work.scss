@@ -1,13 +1,16 @@
 .our-work-section {
     @extend %section-padding;
 }
-.our-work {
+.our-work-container {
+    @include container;
     flex-wrap: wrap;
 }
 
-.our-work__title {
+.our-work-container__title {
     margin-left: auto;
     margin-right: auto;
+
+    @extend %sections-title;
 }
 .task-list {
     display: flex;
@@ -15,10 +18,12 @@
 .task-list__item {
     position: relative;
     margin-top: 50px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
 }
-.task-list__item:not(:last-child) {
-    margin-right: 30px;
-}
+
 .task-list__text {
     position: absolute;
     left: 0;
@@ -34,14 +39,6 @@
     width: 100%;
     height: 70px;
 
-    color: var(--background-color);
+    color: $color-text-white;
     background-color: rgba(47, 48, 58, 0.8);
-}
-.our-work__title,
-.our-team__title {
-    color: var(--title-color);
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
 }

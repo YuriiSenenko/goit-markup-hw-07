@@ -1,6 +1,5 @@
 .section-peculiarities {
-    @extend %section-padding;
-    padding-bottom: 0;
+    padding-top: 94px;
 }
 .peculiarities-container {
     @include container;
