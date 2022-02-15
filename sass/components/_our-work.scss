@@ -2,7 +2,6 @@
     @extend %section-padding;
 }
 .our-work-container {
-    @include container;
     flex-wrap: wrap;
 }
 
@@ -11,11 +10,10 @@
 }
 .task-list {
     display: flex;
+    margin-top: 50px;
 }
 .task-list__item {
     position: relative;
-    margin-top: 50px;
-
     &:not(:last-child) {
         margin-right: 30px;
     }

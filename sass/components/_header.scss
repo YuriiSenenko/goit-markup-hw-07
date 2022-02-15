@@ -2,9 +2,7 @@
     background-color: $color-primery-bg;
     border-bottom: 1px solid $color-secondary-bg;
 }
-.header-container {
-    @include container;
-}
+
 .navigation {
     display: flex;
 }
@@ -74,8 +72,9 @@
 }
 
 .contact-list__link {
-    display: block;
-    color: var(--secondary-text-color);
+    display: flex;
+    align-items: center;
+    color: $color-secondary-text;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;

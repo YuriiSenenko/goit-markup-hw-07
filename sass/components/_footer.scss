@@ -4,13 +4,14 @@
     background-color: $color-bg-footer;
 }
 .footer-container {
-    @include container;
+    align-items: baseline;
 }
 
 .addresses {
     margin-top: 20px;
     margin-right: 70px;
 }
+
 .addresses__item:not(:first-child) {
     margin-top: 9px;
 }
@@ -39,7 +40,6 @@
 }
 
 .social-block__title {
-    padding-top: 12px;
     color: $color-text-white;
 
     font-style: normal;
@@ -50,11 +50,12 @@
 .social-networks {
     display: flex;
     margin-top: 20px;
-    margin-right: 70px;
 }
+
 .social-networks__item:not(:last-child) {
     margin-right: 10px;
 }
+
 .social-networks__link {
     display: block;
     box-sizing: border-box;
@@ -78,8 +79,8 @@
 .subscription-form {
     margin-left: auto;
 }
+
 .subscription-form__title {
-    padding-top: 12px;
     color: $color-text-white;
 
     font-style: normal;
@@ -87,6 +88,7 @@
     line-height: 1.14;
     text-transform: uppercase;
 }
+
 .subscription {
     display: flex;
 }

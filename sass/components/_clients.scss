@@ -2,7 +2,7 @@
     @extend %section-padding;
 }
 .clients-container {
-    @include container($type: block);
+    flex-wrap: wrap;
 }
 .clients__title {
     @extend %sections-title;

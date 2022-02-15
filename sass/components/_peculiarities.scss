@@ -1,9 +1,7 @@
 .section-peculiarities {
     padding-top: 94px;
 }
-.peculiarities-container {
-    @include container;
-}
+
 .peculiarities-container__title {
     @extend %visually-hidden;
     margin-left: auto;

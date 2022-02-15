@@ -2,7 +2,6 @@
     @extend %section-padding;
 }
 .portfolio-container {
-    @include container;
     flex-wrap: wrap;
 }
 .portfolio-container__title {
